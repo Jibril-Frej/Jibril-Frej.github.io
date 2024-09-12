@@ -3,4 +3,14 @@
 <url>
 <loc>http://localhost:4000/</loc>
 </url>
+<url>
+<loc>http://localhost:4000/publications/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/resume/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/assets/images/Resume_FREJ_Jibril.pdf</loc>
+<lastmod>2024-09-12T22:43:30+02:00</lastmod>
+</url>
 </urlset>

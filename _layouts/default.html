@@ -5,8 +5,11 @@
 {% include copyright.html %}
 <html lang="{{ site.locale | replace: "_", "-" | default: "en" }}" class="no-js">
   <head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/custom.css">
     {% include head.html %}
     {% include head/custom.html %}
+    <script src="{{ '/assets/js/custom.js' | relative_url }}"></script>
     <style>
       .author__avatar img.u-photo {
         width: 80%;          /* Adjust width as a percentage of its container */
@@ -16,6 +19,21 @@
         border-radius: 50%;  /* Ensure circular shape */
         object-fit: cover;   /* Ensure the image covers its container area */
       }
+      .header-right {
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        z-index: 1000; /* Ensures image is on top of other elements */
+      }
+      
+      .header-img {
+        width: 10vw;     /* Set width relative to viewport width (scales with screen size) */
+        max-width: 200px;    /* Optional: limit maximum width */
+        min-width: 10px;   /* Optional: limit maximum height */
+        height: auto;
+        z-index: 1000; /* Ensures the image stays on top */
+      }
+
     </style>
   </head>
 
@@ -23,6 +41,16 @@
     {% include_cached skip-links.html %}
     {% include_cached masthead.html %}
 
+    {% if site.header.include_nav %}
+      <nav class="site-nav">
+        <ul>
+          {% for item in site.navigation %}
+            <li><a href="{{ item.url }}">{{ item.title }}</a></li>
+          {% endfor %}
+        </ul>
+      </nav>
+    {% endif %}
+    
     <div class="initial-content">
       {{ content }}
       {% include after-content.html %}
@@ -42,5 +70,6 @@
     </div>
 
     {% include scripts.html %}
+
   </body>
 </html>

@@ -12,7 +12,7 @@
 
 # theme                  : "minimal-mistakes-jekyll"
 # remote_theme           : "mmistakes/minimal-mistakes"
-minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "default," "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
 locale                   : "en-US"
@@ -110,11 +110,18 @@ analytics:
     tracking_id          :
     anonymize_ip         : # true, false (default)
 
+header:
+  include_nav: true
 
-# Build settings
-assets:
-  css:
-    - /assets/css/custom.css
+  
+navigation:
+  - title: "Resume"
+    url: /resume/
+  - title: "Publications"
+    url: /publications/
+
+
+
 
 # Site Author
 author:
@@ -124,9 +131,6 @@ author:
   location         : "Lausanne, Switzerland"
   email            : "frejjibril@gmail.com"
   links:
-    - label: "Website"
-      icon: "fas fa-fw fa-link"
-      url: "https://jibril-frej.github.io/"
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
       url: "https://www.linkedin.com/in/jibril-frej/"
@@ -146,14 +150,13 @@ footer:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/Jibril-Frej"
-    - label: "Website"
-      icon: "fas fa-fw fa-link"
-      url: "https://jibril-frej.github.io/"
+
 
 # Reading Files
 include:
   - .htaccess
   - _pages
+  - assets/css/custom.css
 exclude:
   - "*.sublime-project"
   - "*.sublime-workspace"

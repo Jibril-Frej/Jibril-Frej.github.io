@@ -1,9 +1,28 @@
-.author__avatar  img.u-photo {
-    width: 500px !important;  /* Set your desired size */
-    height: 500px !important; /* Ensure height matches width for a square image */
-    border-radius: 50%;       /* Keep it circular */
+.site-header {
+    display: flex;
+    justify-content: space-between; /* Ensure space between elements */
+    align-items: center; /* Vertically center align */
   }
-
-  body {
-    border: 5px solid red;  /* Test style to confirm the CSS file is applied */
+  
+  .site-nav {
+    text-align: center; /* Center the navigation items */
+    margin: 0 auto; /* Center the navigation block */
   }
+  
+  .site-nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center; /* Center navigation items */
+  }
+  
+  .site-nav li {
+    margin: 0 15px; /* Adjust spacing between links */
+  }
+  
+  .site-nav a {
+    text-decoration: none;
+    color: #000; /* Change as needed */
+  }
+  
