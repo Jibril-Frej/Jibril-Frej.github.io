@@ -1,6 +1,5 @@
 ---
-layout: page
-title: Resume
+layout: none
 permalink: /resume/
 ---
 
