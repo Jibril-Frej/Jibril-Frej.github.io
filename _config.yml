@@ -111,17 +111,19 @@ analytics:
     anonymize_ip         : # true, false (default)
 
 
+# Build settings
+assets:
+  css:
+    - /assets/css/custom.css
+
 # Site Author
 author:
-  name             : "Jibril Frej"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am a TBD"
+  name             : # "Jibril Frej"
+  avatar           : "/assets/images/picture_me.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  bio              : "Post-doctoral researcher in Machine Learning applied to Education."
   location         : "Lausanne, Switzerland"
-  email            :
+  email            : "frejjibril@gmail.com"
   links:
-    - label: "Email"
-      icon: "fas fa-fw fa-envelope-square"
-      url: "mailto:frejjibril@gmail.com"
     - label: "Website"
       icon: "fas fa-fw fa-link"
       url: "https://jibril-frej.github.io/"
