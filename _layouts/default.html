@@ -7,6 +7,16 @@
   <head>
     {% include head.html %}
     {% include head/custom.html %}
+    <style>
+      .author__avatar img.u-photo {
+        width: 80%;          /* Adjust width as a percentage of its container */
+        height: auto;        /* Maintain aspect ratio */
+        max-width: 500px;    /* Optional: limit maximum width */
+        max-height: 500px;   /* Optional: limit maximum height */
+        border-radius: 50%;  /* Ensure circular shape */
+        object-fit: cover;   /* Ensure the image covers its container area */
+      }
+    </style>
   </head>
 
   <body class="layout--{{ page.layout | default: layout.layout }}{% if page.classes or layout.classes %}{{ page.classes | default: layout.classes | join: ' ' | prepend: ' ' }}{% endif %}" dir="{% if site.rtl %}rtl{% else %}ltr{% endif %}">

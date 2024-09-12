@@ -1,6 +1,9 @@
-.author__avatar {
-    width: 500px;
-    height: 500px;
-    border-radius: 50%;
+.author__avatar  img.u-photo {
+    width: 500px !important;  /* Set your desired size */
+    height: 500px !important; /* Ensure height matches width for a square image */
+    border-radius: 50%;       /* Keep it circular */
   }
-  
+
+  body {
+    border: 5px solid red;  /* Test style to confirm the CSS file is applied */
+  }
