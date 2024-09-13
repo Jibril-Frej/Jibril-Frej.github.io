@@ -115,7 +115,9 @@ header:
 
   
 navigation:
-  - title: "Resume"
+  - title: "About Me"
+    url: /
+  - title: "Resume (pdf)"
     url: /resume/
   - title: "Publications"
     url: /publications/
@@ -146,7 +148,7 @@ footer:
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      url: "mailto:frejjibril@gmail.com"
+      url: "mailto:jibril.frej@epfl.ch"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/Jibril-Frej"
