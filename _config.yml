@@ -119,6 +119,8 @@ navigation:
     url: /
   - title: "Resume (pdf)"
     url: /resume/
+  - title: "Short Resume (pdf)"
+    url: /short_resume/
   - title: "Publications"
     url: /publications/
 
