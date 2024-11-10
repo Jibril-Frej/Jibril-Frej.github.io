@@ -7,6 +7,9 @@ author_profile: true
 ---
 You can also check my publication list on my [Google Scholar](https://scholar.google.com/citations?user=3TaKk74AAAAJ&hl) profile.
 <ul>
+<li><p>AI or human? Evaluating student feedback perceptions in higher education, <span style="color: red">ECTEL 2024</span><br />
+T Nazaretsky, P Mejia-Domenzain, V Swamy, <span class="underline">J Frej</span>, T Käser<br />
+<a href="https://arxiv.org/pdf/2404.10876">https://osf.io/6zm83/download</a></p></li>
 <li><p>Course Recommender Systems Need to Consider the Job Market, <span style="color: red">SIGIR 2024</span><br />
 <span class="underline">J Frej</span>, A Dai, S Montariol, A Bosselut, T Käser<br />
 <a href="https://arxiv.org/pdf/2404.10876">https://arxiv.org/pdf/2404.10876</a></p></li>
